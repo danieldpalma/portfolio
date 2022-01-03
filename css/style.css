@@ -65,7 +65,7 @@ body {
 
 /* Projects CSS */
 .projects {
-  height: 200px;
+  height: 500px;
   background-color: var(--darker-color) ;
   color: var(--light-color);
   padding: 20px;
