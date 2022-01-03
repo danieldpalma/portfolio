@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Daniel - Portifolio</title>
+    <title>Daniel Palma - Portifolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css" />
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
   </head>
   <body>
-    <div class="container">
+    <div class="principal">
       <header>
-        <div class="menu">
-          <ul class="menu_list">
+        <div class="navegacao">
+          <ul class="navegacao_list">
             <li><a href="#about">Sobre</a></li>
             <li><a href="#projects">Projetos</a></li>
             <li><a href="#contacts">Contatos</a></li>
@@ -26,8 +26,10 @@
               <image class="profile_img" alt="foto de daniel" src="https://avatars.githubusercontent.com/u/50252151?v=4" ></image>
             </a>
           </div>
-          <h1>Sobre</h1>
-          <p>Sou formado no curso de Ciencia da Computação pela Unimetrocamp em 2020. Atualmente sou estudante de Desenvolvimento Web, focando em: JavaScript, React e NodeJs.</p>
+          <h1 class="titulo1">Sobre</h1>
+          <h3 class="titulo3">
+            <a class="link_instagram" href="https://www.instagram.com/daniel.dpalma/" target="_blank" >Daniel Dario Palma</a> | 22 anos | Campinas, SP</h3>
+          <p>Sou formado no curso de Ciência da Computação pela Unimetrocamp em 2020. Atualmente sou estudante de Desenvolvimento Web, focando em: JavaScript, React e NodeJs.</p>
           <div class="techs">
             <image class="techs_logo" alt="html" src="./assets/html.png"></image>
             <image class="techs_logo" alt="css" src="./assets/css.png"></image>
@@ -39,7 +41,7 @@
       </section>
       <section>
         <div class="projects" id="projects">
-          <h1>Projetos</h1>
+          <h1 class="titulo1">Projetos</h1>
           <div class="projects_carrosel">
             <div class="project">
               <div class="project_info">
@@ -55,11 +57,13 @@
       </section>
       <section>
         <div class="contacts" id="contacts">
-          <h1>Contato</h1>
+          <h1 class="titulo1">Contato</h1>
           <div class="line_contact">
+            <div class="contact_email">
               <p>E-mail: 
-                <a class="contact_email" href="mailto:danielpalma232@gmail.com">danielpalma232@gmail.com</a>
+                <a class="email" href="mailto:danielpalma232@gmail.com">danielpalma232@gmail.com</a>
               </p>
+            </div>
               <div>
                 <a href="https://www.linkedin.com/in/daniel-dario-palma-433343151/" target="_blank">
                   <image class="contact_logo" alt="linkedin" src="./assets/linkedin.png"></image>
@@ -73,6 +77,6 @@
       </section>
     </div>
     <script src="./js/index.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>

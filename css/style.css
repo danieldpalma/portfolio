@@ -8,13 +8,43 @@ body {
   color: var(--light-color);
 }
 
-.container {
-  margin: 5px 10px;
-  font-family: Arial, Helvetica, sans-serif;
+.principal {
+  margin: 10px 10px 3px 10px;
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
-/* Menu CSS */
-.menu_list {
+.titulo1 {
+  font-size: 45px;
+  margin-bottom: 35px;
+}
+
+.titulo3 {
+  font-size: 18px;
+}
+
+/* Scrollbar CSS - Based on Youtube's scrollbar */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  height: 56px;
+  border-radius: 8px;
+  border: 4px solid transparent;
+  background-clip: content-box;
+  background-color: #888;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Navegacao CSS */
+.navegacao_list {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -24,18 +54,18 @@ body {
   font-weight: bold;
 }
 
-.menu_list a, a:visited {
+.navegacao_list a, a:visited {
   text-decoration: none;
   color: var(--light-color);
 }
 
-.menu_list a:hover{
+.navegacao_list a:hover{
   text-decoration: underline;
 }
 
 /* About CSS */
 .about {
-  height: 400px;
+  height: 410px;
   background-color: var(--light-color);
   color: var(--darker-color);
   padding: 20px;
@@ -50,8 +80,19 @@ body {
   padding: 5px;
 }
 
-.about h1 {
-  font-size: 45px;
+.about .titulo1 {
+  margin: 5px;
+}
+
+.link_instagram, .link_instagram:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.link_instagram:hover {
+  text-decoration: underline;
+  color: rgba(54, 52, 52, 0.5);
+  cursor: pointer;
 }
 
 .about p {
@@ -71,10 +112,6 @@ body {
   padding: 20px;
   border-radius: 3px;
   text-align: center;
-}
-
-.projects h1 {
-  font-size: 45px;
 }
 
 .projects_carrosel {
@@ -103,8 +140,8 @@ body {
   justify-content: center;
   align-items: center;
   background-color: blue;
-  width: 600px;
-  height: 450px;
+  width: 100%;
+  height: 80%;
 }
 
 .project_image image {
@@ -123,22 +160,19 @@ body {
   text-align: center;
 }
 
-.contacts h1 {
-  font-size: 45px;
-}
-
 .line_contact {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  line-height: 0;
 }
 
-.contact_email {
+.email {
   color: rgba(54, 52, 52, 0.9);
   text-decoration: none;
 }
 
-.contact_email:hover {
+.email:hover {
   color: rgba(54, 52, 52, 0.5);
   text-decoration: underline;
 }
