@@ -199,3 +199,22 @@ body {
     height: 480px;
   }
 }
+
+@media (max-width: 434px) {
+  .about {
+    height: 500px;
+  }
+}
+
+@media (min-width: 360px) {
+  .about {
+    height: 500px;
+  }
+  .techs_logo {
+    width: 50px;
+  }
+  .contact_logo {
+    width: 30px;
+    margin-bottom: 2px;
+  }
+}
