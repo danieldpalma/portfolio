@@ -29,7 +29,8 @@
           <h1 class="titulo1">Sobre</h1>
           <h3 class="titulo3">
             <a class="link_instagram" href="https://www.instagram.com/daniel.dpalma/" target="_blank" >Daniel Dario Palma</a> | 22 anos | Campinas, SP</h3>
-          <p>Sou formado no curso de Ciência da Computação pela Unimetrocamp em 2020. Atualmente sou estudante de Desenvolvimento Web, focando em: JavaScript, React e NodeJs.</p>
+          <p>Sou formado no curso de Ciência da Computação pela Unimetrocamp em 2020.</p>
+          <p>Atualmente sou estudante de Desenvolvimento Web, focando em: JavaScript, React e NodeJs.</p>
           <div class="techs">
             <image class="techs_logo" alt="html" src="./assets/html.png"></image>
             <image class="techs_logo" alt="css" src="./assets/css.png"></image>
@@ -42,16 +43,38 @@
       <section>
         <div class="projects" id="projects">
           <h1 class="titulo1">Projetos</h1>
-          <div class="projects_carrosel">
-            <div class="project">
-              <div class="project_info">
-                <h2>FlexBlog</h2>
-                <h4>Curso: Origamid</h4>
+          <div id="carouselSlide" class="projects_carrosel carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselSlide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselSlide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselSlide" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>   
+            <div class="project carousel-inner">
+              <div id="flexblog" class="project_info carousel-item active">
+                <div class="card">
+                  <image class="d-block w-100" src="./assets/flexblog.png" alt="Flexblog"></image>
+                  <h5 class="card-header card-title description_dark">FlexBlog</h5>
+                  <div class="card-body">
+                    <p class="card-text description_dark">Curso: Origamid</p>
+                  </div>
+                </div>
               </div>
-              <div class="project_image">
-                  <!-- <image alt="FlexBlog" src="./assets/flexblog.png"></image> -->
+              <div id="jogoDaVelha" class="project_info carousel-item">
+                <image class="d-block w-100" src="./assets/jogoDaVelha.png" alt="jogo da velha"></image>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="description_dark">Jogo da Velha</h5>
+                  <p class="description_dark">Curso: ProgramadorBr</p>
+                </div>
               </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSlide" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselSlide" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
       </section>
@@ -65,7 +88,7 @@
               </p>
             </div>
               <div>
-                <a href="https://www.linkedin.com/in/daniel-dario-palma-433343151/" target="_blank">
+                <a href="https://www.linkedin.com/in/danieldpalma/" target="_blank">
                   <image class="contact_logo" alt="linkedin" src="./assets/linkedin.png"></image>
                 </a>
                 <a href="https://github.com/danieldpalma" target="_blank">
