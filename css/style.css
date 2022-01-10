@@ -240,10 +240,20 @@ body {
   }
 }
 
+@media (max-width: 390.02px) { 
+  .about {
+    height: 485px;
+  }
+}
+
 
 @media (max-width: 321px) { 
   .about {
-    height: 600px;
+    height: 580px;
+  }
+
+  .techs_logo {
+    width: 55px;
   }
 
   .contacts {
