@@ -64,7 +64,6 @@ body {
 
 /* About CSS */
 .about {
-  height: 400px;
   background-color: var(--light-color);
   color: var(--darker-color);
   padding: 20px;
@@ -102,6 +101,7 @@ body {
 .techs_logo {
   display: inline;
   width: 60px;
+  margin-top: 5px;
 }
 
 /* Projects CSS */
@@ -137,21 +137,6 @@ body {
   color: #1e1e1e;
 }
 
-/* .project_image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: blue;
-  width: 100%;
-  height: 80%;
-} */
-
-/* .project_image image {
-  width: 300px;
-  height: 150px;
-  overflow: hidden;
-} */
-
 /* Contact CSS */
 .contacts {
   height: 200px;
@@ -179,7 +164,7 @@ body {
   text-decoration: underline;
 }
 
-.email p {
+.contact_email p {
   margin-bottom: 0;
 }
 
@@ -189,39 +174,90 @@ body {
   width: 40px;
 }
 
-@media (max-width: 806px) {
+@media (max-width: 1399.98px) { 
+
+}
+
+@media (max-width: 1199.98px) { 
+
+}
+
+@media (max-width: 991.98px) { 
   .about {
-    height: 430px;
+    height: 420px;
   }
 }
 
-@media (max-width: 578px) {
+@media (max-width: 767.98px) { 
   .about {
-    height: 460px;
+    height: 420px;
+  }
+
+  .about p {
+    font-size: 16px;
   }
 }
 
-@media (max-width: 452px) {
+@media (max-width: 575.98px) { 
   .about {
-    height: 480px;
+    height: 440px;
+  }
+
+  .about h3 {
+    font-size: 16px;
+  }
+
+  .contacts {
+    height: 240px;
+  }
+
+  .line_contact {
+    display: block;
+  }
+
+  .contact_logos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .contact_logo {
+    margin-top: 5px;
   }
 }
 
-@media (max-width: 434px) {
+@media (max-width: 414.02px) { 
   .about {
-    height: 500px;
+    height: 470px;
   }
-}
 
-@media (max-width: 360px) {
-  .about {
-    height: 500px;
+  .about h3 {
+    font-size: 16px;
   }
+
   .techs_logo {
     width: 50px;
   }
+}
+
+
+@media (max-width: 321px) { 
+  .about {
+    height: 600px;
+  }
+
+  .contacts {
+    height: 270px;
+  }
+
+  .contact_logos {
+    align-items: center;
+    justify-content: center;
+  }
+
   .contact_logo {
-    width: 30px;
-    margin-bottom: 3px;
+    display: flex;
+    flex-direction: column;
   }
 }
+
