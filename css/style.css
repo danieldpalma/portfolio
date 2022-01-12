@@ -174,13 +174,7 @@ body {
   width: 40px;
 }
 
-@media (max-width: 1399.98px) { 
-
-}
-
-@media (max-width: 1199.98px) { 
-
-}
+/* Media Querys */
 
 @media (max-width: 991.98px) { 
   .about {
@@ -208,7 +202,7 @@ body {
   }
 
   .contacts {
-    height: 240px;
+    height: 220px;
   }
 
   .line_contact {
@@ -217,7 +211,8 @@ body {
 
   .contact_logos {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-top: 10px;
   }
 
@@ -240,12 +235,15 @@ body {
   }
 }
 
-@media (max-width: 390.02px) { 
+@media (max-width: 395.02px) { 
   .about {
     height: 485px;
   }
-}
 
+  .techs_logo {
+    width: 45px;
+  }
+}
 
 @media (max-width: 321px) { 
   .about {
@@ -257,17 +255,7 @@ body {
   }
 
   .contacts {
-    height: 270px;
-  }
-
-  .contact_logos {
-    align-items: center;
-    justify-content: center;
-  }
-
-  .contact_logo {
-    display: flex;
-    flex-direction: column;
+    height: 230px;
   }
 }
 
