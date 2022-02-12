@@ -221,7 +221,11 @@ body {
   }
 }
 
-@media (max-width: 414.02px) { 
+@media (max-width: 414.02px) {
+  .navegacao_list {
+    font-size: 16px;
+  }
+
   .about {
     height: 470px;
   }
@@ -245,7 +249,11 @@ body {
   }
 }
 
-@media (max-width: 321px) { 
+@media (max-width: 321px) {
+  .navegacao_list {
+    font-size: 14px;
+  }
+
   .about {
     height: 580px;
   }
