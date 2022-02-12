@@ -1,6 +1,6 @@
 # Portfólio Daniel Palma
 
-Este projeto serve como portfólio para mim.
+Este projeto serve como portfólio para mim. Para acessar, basta [clicar aqui](https://danieldpalma.github.io/portfolio/)
 
 ## Objetivos
 
