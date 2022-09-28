@@ -12,13 +12,13 @@ Para acessar o site, basta [clicar aqui](https://danieldpalma.github.io/portfoli
 
 O objetivo deste projeto é testar minhas habilidades com HTML e CSS, e servir como portfólio para me ajudar a conseguir minha primeira oportunidade como Desenvolvedor Web.
 
-## Técnologias
+## Tecnologias
 
 - HTML
 - CSS
 - Javascript
 
-## Pacotes e técnologias de terceiros
+## Pacotes e tecnologias de terceiros
 
 Também foram utilizados:
 
