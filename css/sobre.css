@@ -1,0 +1,72 @@
+#sobre {
+  max-width: 760px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+#sobre h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.sobre-texto p {
+  margin-bottom: 30px;
+}
+
+.sobre-techs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 120px;
+  margin: 0 auto;
+}
+
+.sobre-techs img {
+  filter: grayscale(1);
+  transition: transform 0.3s;
+}
+
+.sobre-techs img:hover {
+  filter: none;
+  transform: scale(1.2);
+}
+
+@media (max-width: 600px) {
+  #sobre {
+    margin: 0 auto;
+    padding: 60px 20px;
+  }
+
+  #sobre h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+  }
+
+  .sobre-texto p {
+    font-size: 1.1rem;
+  }
+
+  .sobre-techs {
+    width: 60px;
+  }
+
+  .sobre-techs img {
+    filter: none;
+  }
+}
+
+@media (max-width: 400px) {
+  #sobre {
+    padding: 30px 30px 60px 30px;
+  }
+
+  .sobre-texto p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+
+  .sobre-techs {
+    width: 50px;
+  }
+}

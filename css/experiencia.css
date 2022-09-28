@@ -1,0 +1,126 @@
+#experiencia {
+  background-color: var(--c2);
+  margin: 0 auto;
+}
+
+.experiencia-conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.experiencia-conteudo h2 {
+  padding-block: 80px 60px;
+}
+
+.empresa {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+  background: var(--c3);
+  margin-bottom: 20px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.empresa::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 20px;
+  left: -4px;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#20acd8, #0265ac);
+}
+
+.empresa-ano {
+  position: absolute;
+  width: 80px;
+  top: 22px;
+  left: -100px;
+  text-align: right;
+  color: var(--c5);
+  font-size: 0.875rem;
+}
+
+.empresa-titulo {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+.empresa-texto {
+  width: 300px;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: var(--c5);
+}
+
+.empresa-habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: flex-start;
+}
+
+.empresa-habilidades li {
+  padding: 5px 10px;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  border-radius: 5px;
+  background-color: var(--c0);
+}
+
+.experiencia-conteudo a {
+  padding: 18px 32px;
+  background: linear-gradient(#20acd8, #0265ac);
+  border-radius: 4px;
+}
+
+.experiencia-conteudo a:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 800px) {
+  .empresa-ano {
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: left;
+  }
+
+  .empresa-ano::before {
+    content: 'Ano: ';
+  }
+}
+
+@media (max-width: 600px) {
+  #experiencia {
+    padding: 0px 20px;
+  }
+
+  .experiencia-conteudo h2 {
+    font-size: 2rem;
+    padding: 20px 0px 0px 0px;
+    margin-bottom: 40px;
+  }
+
+  .empresa {
+    grid-template-columns: 1fr;
+  }
+
+  .empresa-texto {
+    width: fit-content;
+  }
+}
+
+@media (max-width: 350px) {
+  .experiencia-conteudo a {
+    padding: 12px 24px;
+    font-size: 1.1rem;
+  }
+}

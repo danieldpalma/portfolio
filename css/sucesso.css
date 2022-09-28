@@ -1,0 +1,25 @@
+.container-sucesso {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 80px;
+  color: var(--c0);
+}
+
+.container-sucesso h1 {
+  margin-bottom: 80px;
+}
+
+.container-sucesso a {
+  padding: 12px 16px;
+  background: linear-gradient(#20acd8, #0265ac);
+  border-radius: 4px;
+  border: none;
+  color: var(--c0);
+  margin-bottom: 80px;
+}
+
+.container-sucesso a:hover {
+  opacity: 0.9;
+}

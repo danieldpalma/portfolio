@@ -1,0 +1,71 @@
+:root {
+  --c6: black;
+  --c5: #181818;
+  --c4: #202020;
+  --c3: #c5c5c5;
+  --c2: #d9d9d9;
+  --c1: #e1e1e1;
+  --c0: white;
+  --primary: #0265ac;
+  --gradient: linear-gradient(180deg, rgba(32, 172, 216, 0.9) 0%, #0265ac 100%);
+}
+
+.font-xl {
+  font-size: 4.5rem;
+}
+
+.font-l {
+  font-size: 3.625rem;
+}
+
+.font-l-2 {
+  font-size: 2rem;
+}
+
+.font-l-3 {
+  font-size: 1.75rem;
+}
+
+.font-xs {
+  font-size: 1.5rem;
+}
+
+.font-s {
+  font-size: 1.25rem;
+}
+
+.cor-0 {
+  color: var(--c0);
+}
+
+.cor-1 {
+  color: var(--c1);
+}
+
+.cor-2 {
+  color: var(--c2);
+}
+
+.cor-3 {
+  color: var(--c3);
+}
+
+.cor-4 {
+  color: var(--c4);
+}
+
+.cor-5 {
+  color: var(--c5);
+}
+
+.cor-5 {
+  color: var(--c5);
+}
+
+.primaria {
+  background: var(--primary);
+}
+
+.gradiente {
+  background: var(--gradient);
+}
