@@ -78,6 +78,7 @@
   border: none;
   color: var(--c0);
   margin-bottom: 80px;
+  cursor: pointer;
 }
 
 .contato-form button:hover {
