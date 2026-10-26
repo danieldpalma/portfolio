@@ -1,0 +1,74 @@
+---
+const skillsItems = {
+  languages: ['C#', 'Javascript', 'Typescript'],
+  backend: ['.NET', 'WebApi', 'NodeJs', 'Entity Framework', 'APIs REST'],
+  frontend: ['React', 'Angular'],
+  db: ['SQL Server', 'MySql', 'SQLite'],
+  tools: ['Git', 'GitHub', 'Docker'],
+  curiosity: ['Avalonia UI', '.NET MAUI'],
+};
+---
+
+<section class="mt-10">
+  <h2 class="text-3xl font-semibold font-sans text-c1">Habilidades Técnicas</h2>
+  <ul class="mt-2.5 text-c2">
+    <span class="text-[20px] font-semibold"> 🤖 Linguagens:</span>
+    {
+      skillsItems.languages.map((item) => (
+        <li class="text-1xl inline py-0.75 px-3 m-1 bg-amber-800 rounded-2xl text-gray-50">
+          <em class="m-0.5">{item}</em>
+        </li>
+      ))
+    }
+  </ul>
+  <ul class="mt-2.5 text-c2">
+    <span class="text-[20px] font-semibold"> ⚙️ Backend:</span>
+    {
+      skillsItems.backend.map((item) => (
+        <li class="text-1xl inline py-0.75 px-3 m-1 bg-amber-800 rounded-2xl text-gray-50">
+          <em class="m-0.5">{item}</em>
+        </li>
+      ))
+    }
+  </ul>
+  <ul class="mt-2.5 text-c2">
+    <span class="text-[20px] font-semibold"> 🖥️ Frontend:</span>
+    {
+      skillsItems.frontend.map((item) => (
+        <li class="text-1xl inline py-0.75 px-3 m-1 bg-amber-800 rounded-2xl text-gray-50">
+          <em class="m-0.5">{item}</em>
+        </li>
+      ))
+    }
+  </ul>
+  <ul class="mt-2.5 text-c2">
+    <span class="text-[20px] font-semibold"> 🗄️ Banco de Dados:</span>
+    {
+      skillsItems.db.map((item) => (
+        <li class="text-1xl inline py-0.75 px-3 m-1 bg-amber-800 rounded-2xl text-gray-50">
+          <em class="m-0.5">{item}</em>
+        </li>
+      ))
+    }
+  </ul>
+  <ul class="mt-2.5 text-c2">
+    <span class="text-[20px] font-semibold">🛠️ Ferramentas:</span>
+    {
+      skillsItems.tools.map((item) => (
+        <li class="text-1xl inline py-0.75 px-3 m-1 bg-amber-800 rounded-2xl text-gray-50">
+          <em class="m-0.5">{item}</em>
+        </li>
+      ))
+    }
+  </ul>
+  <ul class="mt-2.5 text-c2">
+    <span class="text-[20px] font-semibold"> 👀 Curiosidade:</span>
+    {
+      skillsItems.curiosity.map((item) => (
+        <li class="text-1xl inline py-0.75 px-3 m-1 bg-amber-800 rounded-2xl text-gray-50">
+          <em class="m-0.5">{item}</em>
+        </li>
+      ))
+    }
+  </ul>
+</section>

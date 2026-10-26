@@ -1,0 +1,40 @@
+---
+const socialsURL = {
+  linkedin: 'https://www.linkedin.com/in/danieldpalma',
+  github: 'https://github.com/danieldpalma',
+};
+---
+
+<section class="contact mt-10">
+  <h2 class="text-3xl font-semibold font-sans text-c1">Contato</h2>
+  <span class="text-c2"
+    >💬 Pode entrar em contato comigo pelo&nbsp
+    <a
+      href={socialsURL.linkedin}
+      target="_blank"
+      rel="noreferrer noopener nofollow"
+    >
+      <span
+        class="text-blue-700 font-mono font-semibold underline decoration-dashed"
+      >
+        LinkedIn</span
+      ></a
+    > ou pelo&nbsp
+    <a
+      href={socialsURL.github}
+      target="_blank"
+      rel="noreferrer noopener nofollow"
+    >
+      <span
+        class="text-gray-700 font-mono font-semibold underline decoration-dashed"
+        >Github</span
+      >
+    </a>
+  </span>
+</section>
+
+<style>
+  .contact {
+    color: #8f5c38;
+  }
+</style>

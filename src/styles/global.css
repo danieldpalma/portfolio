@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-serif: 'Noto Serif', serif;
+  --font-sans-sefif: 'Roboto', sans-serif;
+
+  --color-c1: #74533c;
+  --color-c2: #8f5c38;
+  --color-c3: #f3dfbf;
+  --color-c4: #06402b;
+}

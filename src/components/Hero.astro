@@ -1,0 +1,29 @@
+---
+import Image from 'astro/components/Image.astro';
+
+const githubProfilePicrureURL = 'https://github.com/danieldpalma.png';
+---
+
+<section class="hero grid grid-cols-2 gap-0.5">
+  <Image
+    src={githubProfilePicrureURL}
+    alt={'Github profile'}
+    width={280}
+    height={280}
+    loading="eager"
+  />
+
+  <div class="content-center font-serif">
+    <h1 class="font-bold text-[40px] text-c4">Daniel Dario Palma</h1>
+    <h2 class="font-semibold text-2xl text-c2">
+      Desenvolvedor Backend .NET <br /> Suporte Técnico
+    </h2>
+    <p class="text-[20px] text-c2">📌 Campinas - SP</p>
+  </div>
+</section>
+
+<style>
+  .hero img {
+    border-radius: 16px;
+  }
+</style>
