@@ -11,7 +11,7 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   site: isVercel
-    ? 'https://portfolio.vercel.app'
+    ? 'https://portfolio-danieldpalmas-projects.vercel.app'
     : 'https://danieldpalma.github.io',
   base: isVercel ? '/' : '/portfolio/',
   outDir: './docs',
