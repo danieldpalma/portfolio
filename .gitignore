@@ -24,4 +24,7 @@ pnpm-debug.log*
 .idea/
 
 # vscode
-.vscode/
+.vscode/*
+
+AGENTS.md
+CLAUDE.md
