@@ -1,4 +1,6 @@
 ---
+import Subtitle from './Subtitle.astro';
+
 const skillsItems = {
   languages: ['C#', 'Javascript', 'Typescript'],
   backend: ['.NET', 'WebApi', 'NodeJs', 'Entity Framework', 'APIs REST'],
@@ -10,7 +12,7 @@ const skillsItems = {
 ---
 
 <section class="mt-10">
-  <h2 class="text-3xl font-semibold font-sans text-c1">Habilidades Técnicas</h2>
+  <Subtitle value="Habilidades Técnicas" />
   <ul class="mt-2.5 text-c2">
     <span class="text-[20px] font-semibold"> 🤖 Linguagens:</span>
     {
