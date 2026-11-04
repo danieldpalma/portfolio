@@ -7,36 +7,30 @@ const socialsURL = {
 };
 ---
 
-<section class="contact mt-10">
+<section class="mt-8 md:mt-10">
   <Subtitle value="Contato" />
-  <span class="text-c2"
-    >💬 Pode entrar em contato comigo pelo&nbsp
+  <p class="mt-2 text-c2">
+    💬 Pode entrar em contato comigo pelo {' '}
     <a
       href={socialsURL.linkedin}
       target="_blank"
       rel="noreferrer noopener nofollow"
     >
       <span
-        class="text-blue-700 font-mono font-semibold underline decoration-dashed"
+        class="font-mono font-semibold text-blue-700 underline decoration-dashed"
+        >LinkedIn</span
       >
-        LinkedIn</span
-      ></a
-    > ou pelo&nbsp
+    </a>
+    {' '} ou pelo {' '}
     <a
       href={socialsURL.instagram}
       target="_blank"
       rel="noreferrer noopener nofollow"
     >
       <span
-        class="text-pink-500 font-mono font-semibold underline decoration-dashed"
+        class="font-mono font-semibold text-pink-500 underline decoration-dashed"
         >Instagram</span
       >
     </a>
-  </span>
+  </p>
 </section>
-
-<style>
-  .contact {
-    color: #8f5c38;
-  }
-</style>
