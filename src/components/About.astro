@@ -1,5 +1,9 @@
 ---
 import Subtitle from './Subtitle.astro';
+
+const gitHubURL = {
+  github: 'https://github.com/danieldpalma',
+};
 ---
 
 <section class="mt-10">
@@ -12,5 +16,17 @@ import Subtitle from './Subtitle.astro';
     ainda mais meus conhecimentos. Apesar do meu foco ser o ecosistema .NET, as vezes
     dou umas olhadas no universo Javascript/Typescript seja com Angular, React e NodeJS
     e sempre de olho no mundo do Linux.
+  </p>
+  <p class="text-1xl text-c2 font-semibold">
+    Todos os meus projetos se encontram no <a
+      href={gitHubURL.github}
+      target="_blank"
+      rel="noreferrer noopener nofollow"
+    >
+      <span
+        class="text-gray-700 font-mono font-semibold underline decoration-dashed"
+        >Github</span
+      >
+    </a>.
   </p>
 </section>
